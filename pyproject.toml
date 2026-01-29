@@ -3,8 +3,15 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cherry_files_picker"
+name = "cherry-files-picker"
+description = "Copy the final version of selected files from one Git branch to another with a single commit."
 version = "2026.0.1"
+readme = "README.md"
+authors = [{name = "Nelson Urrutia"}]
+license = { file = "LICENSE" }
+keywords = ["git", "version-control","developer-tools", "cli" ]
+
+
 
 [project.scripts]
 cherry-files-picker = "cherry_files_picker.main:main"
