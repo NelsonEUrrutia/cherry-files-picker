@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cherry-files-picker"
-description = "Copy the final version of selected files from one Git branch to another with a single commit."
+description = "Move files from a source branch to a target branch and create a single, clean commit"
 version = "2026.0.1"
 readme = "README.md"
 authors = [{name = "Nelson Urrutia"}]
